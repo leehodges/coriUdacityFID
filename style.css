@@ -66,3 +66,10 @@
             width: 100%;
             padding: 20px;
         }
+        /* Responsive layout - Now when the screen size is detected at under 800px or less our side column will be displayed below our blog posts so things are not squished */
+        @media screen and (max-width: 800px) {
+          .blogcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        }
