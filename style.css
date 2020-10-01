@@ -1,0 +1,68 @@
+        /* add a border box to all of our columns */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Add a gray background color with some padding */
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #d0d0d0d0;
+        }
+
+        /* our header styling */
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background: white;
+        }
+
+        /* our blog posts column */
+        .blogcolumn {
+            width: 75%;
+            float: left;
+        }
+
+        /* our images used on blog posts styling */
+        .blog-img {
+            width: 200px;
+            height: 200px;
+            float: left;
+            padding-right: 20px;
+        }
+
+        /* our card we use to store our blog posts in */
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        /* our actual blog post styling */
+        .blog-post {
+            padding: 20px;
+            min-height: 200px;
+        }
+
+        /* clear floats */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* our right column about me section */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+        }
+
+        /* a fake placeholder image we can use to not have to find images */
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }

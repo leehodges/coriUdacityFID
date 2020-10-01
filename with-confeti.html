@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="script.js">
+	</script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<div class="header">
+		<!-- set id to be blog-title and we use in our function to grab this h2. 
+            onclick will grab our function and perform the logic when someone 
+            clicks -->
+		<h2 id="blog-title" onclick="updateBlogTitle()">My First Blog</h2>
+
+	</div>
+
+	<div class="row">
+
+		<div class="blogcolumn">
+			<div class="card">
+				<div class="title">
+					<h2>My First Post</h2>
+					<h5>This post is about a dog</h5>
+				</div>
+				<div class="content">
+					<div class="image-container">
+						<img class="blog-img" src="https://i.imgur.com/H37kxPH.jpg">
+                    </div>
+                    <div class="blog-post">
+                        <p>Isn't this dog cool?</p>
+                        <p>Well this is it for today, bye!</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="card">
+                <div class="title">
+                    <h2>My Second Post</h2>
+                    <h5>This is my second post</h5>
+                </div>
+                <div class="content">
+                    <div class="image-container">
+                        <img class="blog-img" src="https://i.imgur.com/H37kxPH.jpg">
+                    </div>
+                    <div class="blog-post">
+                        <p>Lots of random words here to fill up space. Lots of random words here to fill up space. Lots
+                            of random words here to fill up space. Lots of random words here to fill up space. Lots of
+                            random words here to fill up space. Lots of random words here to fill up space. Lots of
+                            random words here to fill up space. Lots of random words here to fill up space. Lots of
+                            random words here to fill up space. Lots of random words here to fill up space.</p>
+                        <p>Well this is it for today, bye!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height:100px;">Image Placeholder</div>
+                <p>Hi I'm a Udacity student working towards a digital future!</p>
+            </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <div class="fakeimg">Image</div><br>
+                <div class="fakeimg">Image</div><br>
+                <div class="fakeimg">Image</div>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <p>Twitter</p>
+                <p>github</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
